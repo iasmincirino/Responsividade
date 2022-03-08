@@ -1,1 +1,1 @@
-# Resoinsividade
+# Responsividade
