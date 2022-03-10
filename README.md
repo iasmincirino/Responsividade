@@ -1,6 +1,6 @@
 # Responsividade
 
-Site Responsivel com Bootstrap.
+Site responsivo com Bootstrap.
 
 ### Tecnologias usadas:
 
