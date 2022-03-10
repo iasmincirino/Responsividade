@@ -1,0 +1,116 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Navbar */
+
+.navbar{
+    background: #131313;
+    padding: 1rem 8rem;
+    z-index: 1000;
+}
+
+.navbar .navbar-brand{
+    font-size: 1.4rem;
+}
+
+#navbarSupportedContent > ul > li:nth-child(n) > a {
+    color: #fff;
+    font-size: 1.1rem;
+    padding: 0 0.8rem;
+}
+
+#navbarSupportedContent > ul > li:nth-child(n) > a:hover{
+    color: #8989f8;
+}
+
+#navbarSupportedContent > a{
+    background: #8989f8e1;
+    color: #fff;
+    padding: 0.5rem 1.6rem;
+    border-radius: 20px;
+    text-decoration: none;
+}
+
+#navbarSupportedContent > a:hover{
+    background: #8989f8;
+}
+
+/* Vídeo */
+
+.mid{
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    text-align: center;
+}
+
+.mid video{
+    width: 100%;
+    height: 100%;
+    pointer-events: none;
+    object-fit: cover;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.mid .centro{ 
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%)
+}
+
+.mid .centro p{
+    width: 55%;
+    font-size: 1.1rem;
+    letter-spacing: 0.2px;
+    padding-bottom: 1rem;
+}
+
+.mid .centro a{
+    background: #8989f8e1;
+    color: #fff;
+    padding: 0.6rem 1.6rem;
+    border-radius: 20px;
+    text-decoration: none;
+}
+
+.mid .centro a:hover{
+    background: #8989f8;
+}
+
+@media screen and (max-width: 988px) {
+    .navbar{
+        padding: 1rem;
+    }
+
+    #navbarSupportedContent > ul{
+        padding-left: 0.8rem;
+    }
+
+    #navbarSupportedContent > ul > li:nth-child(n) > a {
+        padding: 0.8rem 0;
+    }
+
+    .mid .centro h2{
+        font-size: 2.5rem;
+    }
+
+    .mid .centro p{
+        font-size: 1rem;
+    }
+
+    .mid .centro a{
+        font-size: 0.9rem;
+    }
+}
